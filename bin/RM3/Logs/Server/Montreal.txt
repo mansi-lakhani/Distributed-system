@@ -1,0 +1,261 @@
+DATE: 2022-03-07 09:55:01 PM  Server is Up & Running
+DATE: 2022-03-07 09:55:01 PM  UDP Server Started at port 8081
+DATE: 2022-03-07 09:55:28 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM070322 appointmentType: Physician appointmentCapacity 4  | ServerResponse: Success: Appointment MTLM070322 added successfully
+DATE: 2022-03-07 09:55:43 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM070322 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM070322 Booked Successfully
+DATE: 2022-03-07 09:57:21 PM  Server is Up & Running
+DATE: 2022-03-07 09:57:21 PM  UDP Server Started at port 8081
+DATE: 2022-03-07 09:57:41 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM070322 appointmentType: Physician appointmentCapacity 4  | ServerResponse: Success: Appointment MTLM070322 added successfully
+DATE: 2022-03-07 09:58:01 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM070322 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM070322 Booked Successfully
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentId: QUEM070322 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentId: QUEM070322 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEM070322 Booked Successfully
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: QUEM070322 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEM070322 Booked Successfully
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  cancelAppointment  | RequestParameters:  appointmentId: MTLM070322 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM070322 Canceled for MTLP1234
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  swapAppointmet  | RequestParameters:  oldappointmentId: MTLM070322 oldappointmentType: Physician newappointmentId: QUEM070322 newappointmentType: Surgeon  | ServerResponse: Success: Appointment MTLM070322 swapped with QUEM070322
+DATE: 2022-03-07 10:00:22 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM070322 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM070322 Booked Successfully
+DATE: 2022-03-07 10:00:59 PM ClientID: MTLP1234 | RequestType:  swapAppointmet  | RequestParameters:  oldappointmentId: MTLM030722 oldappointmentType: Dental newappointmentId: QUEM070322 newappointmentType: Surgeon  | ServerResponse: Failed: You MTLP1234 Are Not Registered in MTLM030722
+DATE: 2022-03-16 10:07:20 PM  Server is Up & Running
+DATE: 2022-03-16 10:07:20 PM  UDP Server Started at port 8081
+DATE: 2022-03-16 10:07:20 PM  Server Shutting down
+DATE: 2022-03-16 10:35:15 PM  Server is Up & Running
+DATE: 2022-03-16 10:35:15 PM  UDP Server Started at port 8081
+DATE: 2022-03-16 10:35:15 PM  Server Shutting down
+DATE: 2022-03-16 11:14:46 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM160322 appointmentType: Physician appointmentCapacity 10  | ServerResponse: Success: Appointment MTLM160322 added successfully
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || M1/60/32 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Surgeon  | ServerResponse:  ...
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+No Events of Type Surgeon
+=====================================
+;
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: MONTREAL Server Physician:
+DataModel.AppointmentModel@30b13be3 || 
+=====================================
+;
+DATE: 2022-03-16 11:16:56 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM160322 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM160322 Booked Successfully
+DATE: 2022-03-16 11:17:12 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM160322 appointmentType: Physician  | ServerResponse: Failed: Appointment MTLM160322 Already Booked
+DATE: 2022-03-16 11:27:47 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM160322 appointmentType: Physician  | ServerResponse: Failed: Appointment MTLM160322 Already Booked
+DATE: 2022-03-16 11:33:50 PM  Server is Up & Running
+DATE: 2022-03-16 11:33:51 PM  UDP Server Started at port 8081
+DATE: 2022-03-16 11:33:51 PM  Server Shutting down
+DATE: 2022-03-16 11:34:40 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLA170322 appointmentType: Dental appointmentCapacity 10  | ServerResponse: Success: Appointment MTLA170322 added successfully
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Dental  | ServerResponse: SHERBROOK Server Dental:
+No Events of Type Dental
+=====================================
+
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Dental  | ServerResponse: QUEBEC Server Dental:
+No Events of Type Dental
+=====================================
+
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse: MONTREAL Server Dental:
+10 || A1/70/32 || Afternoon
+=====================================
+SHERBROOK Server Dental:
+No Events of Type Dental
+=====================================
+QUEBEC Server Dental:
+No Events of Type Dental
+=====================================
+
+DATE: 2022-03-16 11:35:13 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLA170322 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA170322 Booked Successfully
+DATE: 2022-04-10 02:13:05 PM  Server is Up & Running
+DATE: 2022-04-10 02:13:05 PM  UDP Server Started at port 8081
+DATE: 2022-04-10 02:13:05 PM  Server Shutting down
+DATE: 2022-04-10 02:13:10 PM  Server is Up & Running
+DATE: 2022-04-10 02:13:10 PM  UDP Server Started at port 8081
+DATE: 2022-04-10 02:13:10 PM  Server Shutting down
+DATE: 2022-04-10 02:13:53 PM  Server is Up & Running
+DATE: 2022-04-10 02:13:53 PM  UDP Server Started at port 8081
+DATE: 2022-04-10 02:24:04 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician appointmentCapacity 10  | ServerResponse: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || M1/00/42 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:35:55 PM  Server is Up & Running
+DATE: 2022-04-10 02:35:55 PM  UDP Server Started at port 8081
+DATE: 2022-04-10 02:36:33 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician appointmentCapacity 10  | ServerResponse: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || M1/00/42 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:38:56 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLA100422 appointmentType: Physician appointmentCapacity 5  | ServerResponse: Success: Appointment MTLA100422 added successfully
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || M1/00/42 || Morning5 || A1/00/42 || Afternoon
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:40:55 PM  Server is Up & Running
+DATE: 2022-04-10 02:40:55 PM  UDP Server Started at port 8081
+DATE: 2022-04-10 02:41:34 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician appointmentCapacity 10  | ServerResponse: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:42:04 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM100422 Booked Successfully
+DATE: 2022-04-10 02:42:43 PM ClientID: MTLP1234 | RequestType:  getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLM100422 ||
+=====================================
+
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:45:05 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician  | ServerResponse: Failed: Appointment MTLM100422 Already Booked
+DATE: 2022-04-10 02:52:14 PM  Server is Up & Running
+DATE: 2022-04-10 02:52:14 PM  UDP Server Started at port 8081
+DATE: 2022-04-10 02:52:30 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician appointmentCapacity 10  | ServerResponse: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:52:48 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM100422 Booked Successfully
+DATE: 2022-04-10 02:55:38 PM  Server is Up & Running
+DATE: 2022-04-10 02:55:38 PM  UDP Server Started at port 8081
+DATE: 2022-04-10 02:55:56 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician appointmentCapacity 10  | ServerResponse: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:56:11 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician  | ServerResponse: Success: Appointment MTLM100422 Booked Successfully
+DATE: 2022-04-10 02:59:47 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLM100422 appointmentType: Physician  | ServerResponse: Failed: Appointment MTLM100422 Already Booked
+DATE: 2022-04-10 03:00:00 PM ClientID: MTLP1234 | RequestType:  getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLM100422 ||
+=====================================
+
+DATE: 2022-04-10 03:06:20 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: MTLA100422 appointmentType: Physician appointmentCapacity 5  | ServerResponse: Success: Appointment MTLA100422 added successfully
+DATE: 2022-04-10 03:06:36 PM ClientID: MTLP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: MTLA100422 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA100422 Booked Successfully
+DATE: 2022-04-10 03:06:45 PM ClientID: MTLP1234 | RequestType:  getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLM100422 ||MTLA100422 ||
+=====================================
+

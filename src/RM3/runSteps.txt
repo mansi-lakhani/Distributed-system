@@ -1,0 +1,10 @@
+javac Server/Montreal/*.java Server/Quebec/*.java Server/Sherbrooke/*.java Client/*.java DataModel/*.java
+java Server.Montreal.Server  
+java Server.Quebec.Server  
+java Server.Sherbrooke.Server
+
+java Client.Client
+ 
+wsimport Server/Montreal/MTLServer.wsdl
+wsimport Server/Quebec/QUEServer.wsdl
+wsimport Server/Sherbrooke/SHEServer.wsdl

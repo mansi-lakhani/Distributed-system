@@ -1,0 +1,208 @@
+07-04-2022 15:52:53|Add appointment|[MTLM070222, DENTAL, 10]|Success: Appointment Added|true|
+07-04-2022 15:54:32|Add appointment|[MTLM070222, DENTAL, 10]|Success: Appointment Added|true|
+07-04-2022 15:54:32|Sent UDP request to Shrebrooke server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+07-04-2022 15:54:32|Sent UDP request to Quebec server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [|false|
+07-04-2022 15:54:32|Received UDP response from quebec server|[MTLA0000]||false|
+07-04-2022 15:54:32|Received UDP response from Sharebrooke server|[MTLA0000]||false|
+07-04-2022 15:54:32|Get appointment Schedule|[MTLA0000]|Appointment Schedule of MTLA0000 []|false|
+07-04-2022 15:54:32|Book appointment|[MTLA0000, MTLM070222, DENTAL]|Success: Appointment successfully booked|false|
+07-04-2022 15:54:32|Sent UDP request to Shrebrooke server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [DENTAL:MTLM070222,|false|
+07-04-2022 15:54:32|Sent UDP request to Quebec server:MTLA0000 getAppointmentSchedule|[MTLA0000]|Appointment Schedule of MTLA0000 [DENTAL:MTLM070222,|false|
+07-04-2022 15:54:32|Received UDP response from Sharebrooke server|[MTLA0000]||false|
+07-04-2022 15:54:32|Received UDP response from quebec server|[MTLA0000]||false|
+07-04-2022 15:54:32|Get appointment Schedule|[MTLA0000]|Appointment Schedule of MTLA0000 [DENTAL:MTLM070222,]|false|
+07-04-2022 16:29:42|Add appointment|[MTLM070422, PHYSICIAN, 10]|Success: Appointment Added|true|
+10-04-2022 09:54:48|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:54:48|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:54:48|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 09:54:48|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 09:54:48|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 09:55:29|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:55:29|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:55:29|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 09:55:29|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 09:55:29|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 09:57:11|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:57:11|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:57:11|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 09:57:11|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 09:57:11|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 09:57:21|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:57:21|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 09:57:21|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 09:57:21|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 09:57:21|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:08:06|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:08:06|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:08:06|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:08:06|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:08:06|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:08:16|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:08:16|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:08:16|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:08:16|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:08:16|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:10:47|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:10:47|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:10:47|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:10:47|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:10:47|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:10:57|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:10:57|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:10:57|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:10:57|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:10:57|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:11:54|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:11:54|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:11:54|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:11:54|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:11:54|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:12:03|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:12:03|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:12:03|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:12:03|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:12:03|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:15:18|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:15:18|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:15:18|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:15:18|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:15:18|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:15:28|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:15:28|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:15:28|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:15:28|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:15:28|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:18:34|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:18:34|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:18:34|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:18:34|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:18:34|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:18:44|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:18:44|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:18:44|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:18:44|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:18:44|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:26:41|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:26:41|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:26:41|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:26:41|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:26:41|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:26:51|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:26:51|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:26:51|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:26:51|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:26:51|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:28:58|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:28:58|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:28:58|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:28:58|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:28:58|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:29:08|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:29:08|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:29:08|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:29:08|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:29:08|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:37:56|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:37:56|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:37:56|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:37:56|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:37:56|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:38:05|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:38:05|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:38:05|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:38:05|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:38:05|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:42:36|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:42:36|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:42:36|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:42:36|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:42:36|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:42:46|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:42:46|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:42:46|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:42:46|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:42:46|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:45:10|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:45:10|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:45:10|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:45:10|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:45:10|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:52:14|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:52:14|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:52:14|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:52:14|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:52:14|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 10:54:05|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:54:05|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 10:54:05|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 10:54:05|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 10:54:05|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 13:13:51|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:13:51|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:13:51|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 13:13:51|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 13:13:51|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 13:16:31|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:16:31|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:16:31|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 13:16:31|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 13:16:31|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 13:18:04|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:18:04|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:18:04|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 13:18:04|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 13:18:04|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 13:33:42|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:33:42|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:33:42|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 13:33:42|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 13:33:42|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 13:36:03|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:36:03|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 13:36:03|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 13:36:03|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 13:36:03|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 14:25:03|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 14:25:03|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 14:25:03|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 14:25:03|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 14:25:03|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 16:25:33|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 16:25:33|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 16:25:33|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 16:25:33|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 16:25:33|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 16:28:02|Add appointment|[MTLA090222, PHYSICIAN, 10]|Success: Appointment Added|true|
+10-04-2022 16:41:09|Add appointment|[MTLA010922, PHYSICIAN, 10]|Success: Appointment Added|true|
+10-04-2022 17:26:27|Add appointment|[MTLA090222, PHYSICIAN, 10]|Success: Appointment Added|true|
+10-04-2022 17:30:47|Add appointment|[MTLA090222, PHYSICIAN, 10]|Success: Appointment Added|true|
+10-04-2022 18:21:12|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 18:21:12|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 18:21:12|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 18:21:12|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 18:21:12|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 18:23:43|Sent UDP request to Shrebrooke server:MTLP2345 getAppointmentSchedule|[MTLP2345]|Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,|false|
+10-04-2022 18:23:43|Received UDP response from Sharebrooke server|[MTLP2345]|SURGEON:SHEE070222,PHYSICIAN:SHEE080222,|false|
+10-04-2022 18:23:43|Sent UDP request to Quebec server:MTLP2345 getAppointmentSchedule|[MTLP2345]|Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,SURGEON:SHEE070222,PHYSICIAN:SHEE080222,|false|
+10-04-2022 18:23:43|Received UDP response from quebec server|[MTLP2345]|PHYSICIAN:QUEA040222,|false|
+10-04-2022 18:23:43|Get appointment Schedule|[MTLP2345]|Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,SURGEON:SHEE070222,PHYSICIAN:SHEE080222,PHYSICIAN:QUEA040222,]|false|
+10-04-2022 20:11:59|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 20:11:59|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 20:11:59|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 20:11:59|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 20:11:59|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+10-04-2022 20:13:04|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 20:13:04|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+10-04-2022 20:13:04|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+10-04-2022 20:13:04|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+10-04-2022 20:13:04|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+11-04-2022 16:47:40|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-04-2022 16:47:40|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+11-04-2022 16:47:40|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-04-2022 16:47:40|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+11-04-2022 16:47:40|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|
+11-04-2022 20:56:45|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-04-2022 20:56:45|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+11-04-2022 20:56:45|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-04-2022 20:56:45|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+11-04-2022 20:56:45|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,]|false|

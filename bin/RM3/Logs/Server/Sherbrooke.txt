@@ -1,0 +1,92 @@
+DATE: 2022-03-07 09:54:55 PM Exception: org.omg.CORBA.COMM_FAILURE:   vmcid: SUN  minor code: 201  completed: No
+DATE: 2022-03-07 09:54:55 PM  Server Shutting down
+DATE: 2022-03-07 09:55:01 PM  Server is Up & Running
+DATE: 2022-03-07 09:55:01 PM  UDP Server Started at port 8082
+DATE: 2022-03-07 09:57:21 PM  Server is Up & Running
+DATE: 2022-03-07 09:57:21 PM  UDP Server Started at port 8082
+DATE: 2022-03-16 10:07:58 PM  Server is Up & Running
+DATE: 2022-03-16 10:07:58 PM  UDP Server Started at port 8082
+DATE: 2022-03-16 10:07:58 PM  Server Shutting down
+DATE: 2022-03-16 10:35:20 PM  Server is Up & Running
+DATE: 2022-03-16 10:35:20 PM  UDP Server Started at port 8082
+DATE: 2022-03-16 10:35:20 PM  Server Shutting down
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Surgeon  | ServerResponse:  ...
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Surgeon  | ServerResponse: SHERBROOK Server Surgeon:
+No Events of Type Surgeon
+=====================================
+;
+DATE: 2022-03-16 11:16:08 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: SHEM160322 appointmentType: Physician appointmentCapacity 10  | ServerResponse: Success: Appointment SHEM160322 added successfully
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+DataModel.AppointmentModel@30b13be3 || 
+=====================================
+
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+10 || M1/60/32 || Morning
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+MONTREAL Server Physician:
+DataModel.AppointmentModel@30b13be3 || 
+=====================================
+
+DATE: 2022-03-16 11:34:08 PM  Server is Up & Running
+DATE: 2022-03-16 11:34:08 PM  UDP Server Started at port 8082
+DATE: 2022-03-16 11:34:08 PM  Server Shutting down
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Dental  | ServerResponse:  ...
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Dental  | ServerResponse: SHERBROOK Server Dental:
+No Events of Type Dental
+=====================================
+;
+DATE: 2022-04-10 02:14:21 PM  Server is Up & Running
+DATE: 2022-04-10 02:14:21 PM  UDP Server Started at port 8082
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:36:10 PM  Server is Up & Running
+DATE: 2022-04-10 02:36:10 PM  UDP Server Started at port 8082
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:41:07 PM  Server is Up & Running
+DATE: 2022-04-10 02:41:08 PM  UDP Server Started at port 8082
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+;

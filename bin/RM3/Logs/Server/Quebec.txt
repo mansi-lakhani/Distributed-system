@@ -1,0 +1,102 @@
+DATE: 2022-03-07 09:54:55 PM Exception: org.omg.CORBA.COMM_FAILURE:   vmcid: SUN  minor code: 201  completed: No
+DATE: 2022-03-07 09:54:55 PM  Server Shutting down
+DATE: 2022-03-07 09:55:01 PM  Server is Up & Running
+DATE: 2022-03-07 09:55:01 PM  UDP Server Started at port 8083
+DATE: 2022-03-07 09:56:16 PM ClientID: Appointment Manager | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentId: QUEM070322 appointmentType: Surgeon appointmentCapacity 7  | ServerResponse: Success: Appointment QUEM070322 added successfully
+DATE: 2022-03-07 09:57:21 PM  Server is Up & Running
+DATE: 2022-03-07 09:57:21 PM  UDP Server Started at port 8083
+DATE: 2022-03-07 09:58:21 PM ClientID: Appointment Manager | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentId: QUEM070322 appointmentType: Surgeon appointmentCapacity 8  | ServerResponse: Success: Appointment QUEM070322 added successfully
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  eventID: QUEM070322 eventType: Surgeon  | ServerResponse:  ...
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentId: QUEM070322 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEM070322 Booked Successfully
+DATE: 2022-03-07 09:59:11 PM ClientID: MTLP1234 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  eventID: QUEM070322 eventType: Surgeon  | ServerResponse: Success: Appointment QUEM070322 Booked Successfully;
+DATE: 2022-03-16 10:07:41 PM  Server is Up & Running
+DATE: 2022-03-16 10:07:41 PM  UDP Server Started at port 8083
+DATE: 2022-03-16 10:07:41 PM  Server Shutting down
+DATE: 2022-03-16 10:35:18 PM  Server is Up & Running
+DATE: 2022-03-16 10:35:18 PM  UDP Server Started at port 8083
+DATE: 2022-03-16 10:35:18 PM  Server Shutting down
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-03-16 11:14:50 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-03-16 11:15:22 PM ClientID: Appointment Manager | RequestType:  addAppointment  | RequestParameters:  appointmentId: QUEA160322 appointmentType: Surgeon appointmentCapacity 5  | ServerResponse: Success: Appointment QUEA160322 added successfully
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+No Events of Type Surgeon
+=====================================
+
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentId: null appointmentType: Surgeon  | ServerResponse: SHERBROOK Server Surgeon:
+No Events of Type Surgeon
+=====================================
+
+DATE: 2022-03-16 11:15:28 PM ClientID: Appointment Manager | RequestType:  listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+5 || A1/60/32 || Afternoon
+=====================================
+MONTREAL Server Surgeon:
+No Events of Type Surgeon
+=====================================
+SHERBROOK Server Surgeon:
+No Events of Type Surgeon
+=====================================
+
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-03-16 11:16:14 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-03-16 11:28:43 PM ClientID: QUEP1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentId: QUEA160322 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEA160322 Booked Successfully
+DATE: 2022-03-16 11:28:49 PM ClientID: QUEP1234 | RequestType:  getBookingSchedule  | RequestParameters: null | ServerResponse: Surgeon:
+QUEA160322 ||
+=====================================
+
+DATE: 2022-03-16 11:34:01 PM  Server is Up & Running
+DATE: 2022-03-16 11:34:01 PM  UDP Server Started at port 8083
+DATE: 2022-03-16 11:34:01 PM  Server Shutting down
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Dental  | ServerResponse:  ...
+DATE: 2022-03-16 11:34:45 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Dental  | ServerResponse: QUEBEC Server Dental:
+No Events of Type Dental
+=====================================
+;
+DATE: 2022-04-10 02:14:08 PM  Server is Up & Running
+DATE: 2022-04-10 02:14:08 PM  UDP Server Started at port 8083
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:24:12 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:36:05 PM  Server is Up & Running
+DATE: 2022-04-10 02:36:05 PM  UDP Server Started at port 8083
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:36:36 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:39:00 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:41:02 PM  Server is Up & Running
+DATE: 2022-04-10 02:41:02 PM  UDP Server Started at port 8083
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:41:42 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:44:46 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:52:33 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  eventType: Physician  | ServerResponse:  ...
+DATE: 2022-04-10 02:55:59 PM ClientID: Appointment Manager | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  eventID: null eventType: Physician  | ServerResponse: QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+;

@@ -1,0 +1,9 @@
+DATE: 2022-03-16 11:28:06 PM  login attempt
+DATE: 2022-03-16 11:28:06 PM  Customer Login successful
+DATE: 2022-03-16 11:28:43 PM  attempting to bookAppointment
+DATE: 2022-03-16 11:28:43 PM Client Action:  bookAppointment | RequestParameters:  eventID: QUEA160322 appointmentType: Surgeon  | Server Response: Success: Appointment QUEA160322 Booked Successfully
+DATE: 2022-03-16 11:28:49 PM  attempting to getBookingSchedule
+DATE: 2022-03-16 11:28:49 PM Client Action:  bookAppointment | RequestParameters:  null  | Server Response: Surgeon:
+QUEA160322 ||
+=====================================
+

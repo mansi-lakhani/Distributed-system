@@ -1,0 +1,21 @@
+module server
+{	
+	interface FEMethodInterface
+  	{
+        string addAppointment(in string adminID, in string appointmentID, in string appointmentType, in long capacity);
+
+        string removeAppointment(in string adminID, in string appointmentID, in string appointmentType);
+
+        string listAppointmentAvailability(in string adminID, in string appointmentType);
+
+        string bookAppointment(in string patientID, in string appointmentID, in string appointmentType);
+
+        string getAppointmentSchedule(in string patientID);
+
+        string cancelAppointment(in string patientID, in string appointmentID);
+
+        string swapAppointment(in string patientID, in string oldAppointmentID, in string oldAppointmentType, in string newAppointmentID, in string newAppointmentType);
+
+	    oneway void shutdown();
+    };
+};

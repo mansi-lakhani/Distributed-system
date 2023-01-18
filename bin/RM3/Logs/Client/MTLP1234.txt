@@ -1,0 +1,8 @@
+DATE: 2022-03-16 11:16:48 PM  login attempt
+DATE: 2022-03-16 11:16:48 PM  Customer Login successful
+DATE: 2022-03-16 11:16:56 PM  attempting to bookAppointment
+DATE: 2022-03-16 11:16:56 PM Client Action:  bookAppointment | RequestParameters:  eventID: MTLM160322 appointmentType: Physician  | Server Response: Success: Appointment MTLM160322 Booked Successfully
+DATE: 2022-03-16 11:17:12 PM  attempting to bookAppointment
+DATE: 2022-03-16 11:17:12 PM Client Action:  bookAppointment | RequestParameters:  eventID: MTLM160322 appointmentType: Physician  | Server Response: Failed: Appointment MTLM160322 Already Booked
+DATE: 2022-03-16 11:27:47 PM  attempting to bookAppointment
+DATE: 2022-03-16 11:27:47 PM Client Action:  bookAppointment | RequestParameters:  eventID: MTLM160322 appointmentType: Physician  | Server Response: Failed: Appointment MTLM160322 Already Booked

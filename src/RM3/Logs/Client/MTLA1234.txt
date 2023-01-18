@@ -1,0 +1,182 @@
+DATE: 2022-03-07 09:55:15 PM  login attempt
+DATE: 2022-03-07 09:55:15 PM  Manager Login successful
+DATE: 2022-03-07 09:55:28 PM  attempting to addAppointment
+DATE: 2022-03-07 09:55:28 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM070322 appointmentType: Physician eventCapacity: 4  | Server Response: Success: Appointment MTLM070322 added successfully
+DATE: 2022-03-07 09:55:43 PM  attempting to bookAppointment
+DATE: 2022-03-07 09:55:43 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM070322 appointmentType: Physician  | Server Response: Success: Appointment MTLM070322 Booked Successfully
+DATE: 2022-03-07 09:57:33 PM  login attempt
+DATE: 2022-03-07 09:57:33 PM  Manager Login successful
+DATE: 2022-03-07 09:57:41 PM  attempting to addAppointment
+DATE: 2022-03-07 09:57:41 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM070322 appointmentType: Physician eventCapacity: 4  | Server Response: Success: Appointment MTLM070322 added successfully
+DATE: 2022-03-07 09:58:01 PM  attempting to bookAppointment
+DATE: 2022-03-07 09:58:01 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM070322 appointmentType: Physician  | Server Response: Success: Appointment MTLM070322 Booked Successfully
+DATE: 2022-03-07 09:59:11 PM  attempting to swapAppointmet
+DATE: 2022-03-07 09:59:11 PM Client Action:  swapAppointmet | RequestParameters:  customerID: MTLP1234 oldEventID: MTLM070322 oldEventType: Physician newEventID: QUEM070322 newEventType: Surgeon  | Server Response: Success: Appointment MTLM070322 swapped with QUEM070322
+DATE: 2022-03-07 10:00:22 PM  attempting to bookAppointment
+DATE: 2022-03-07 10:00:22 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM070322 appointmentType: Physician  | Server Response: Success: Appointment MTLM070322 Booked Successfully
+DATE: 2022-03-07 10:00:59 PM  attempting to swapAppointmet
+DATE: 2022-03-07 10:00:59 PM Client Action:  swapAppointmet | RequestParameters:  customerID: MTLP1234 oldEventID: MTLM030722 oldEventType: Dental newEventID: QUEM070322 newEventType: Surgeon  | Server Response: Failed: You MTLP1234 Are Not Registered in MTLM030722
+DATE: 2022-03-16 11:14:34 PM  login attempt
+DATE: 2022-03-16 11:14:34 PM  Manager Login successful
+DATE: 2022-03-16 11:14:46 PM  attempting to addAppointment
+DATE: 2022-03-16 11:14:46 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM160322 appointmentType: Physician eventCapacity: 10  | Server Response: Success: Appointment MTLM160322 added successfully
+DATE: 2022-03-16 11:14:50 PM  attempting to listAppointmentAvailability
+DATE: 2022-03-16 11:14:50 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || M1/60/32 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-03-16 11:34:27 PM  login attempt
+DATE: 2022-03-16 11:34:27 PM  Manager Login successful
+DATE: 2022-03-16 11:34:40 PM  attempting to addAppointment
+DATE: 2022-03-16 11:34:40 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLA170322 appointmentType: Dental eventCapacity: 10  | Server Response: Success: Appointment MTLA170322 added successfully
+DATE: 2022-03-16 11:34:45 PM  attempting to listAppointmentAvailability
+DATE: 2022-03-16 11:34:45 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Dental  | Server Response: MONTREAL Server Dental:
+10 || A1/70/32 || Afternoon
+=====================================
+SHERBROOK Server Dental:
+No Events of Type Dental
+=====================================
+QUEBEC Server Dental:
+No Events of Type Dental
+=====================================
+
+DATE: 2022-03-16 11:35:13 PM  attempting to bookAppointment
+DATE: 2022-03-16 11:35:13 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLA170322 appointmentType: Dental  | Server Response: Success: Appointment MTLA170322 Booked Successfully
+DATE: 2022-04-10 02:23:54 PM  login attempt
+DATE: 2022-04-10 02:23:54 PM  Manager Login successful
+DATE: 2022-04-10 02:24:04 PM  attempting to addAppointment
+DATE: 2022-04-10 02:24:04 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM100422 appointmentType: Physician eventCapacity: 10  | Server Response: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:24:12 PM  attempting to listAppointmentAvailability
+DATE: 2022-04-10 02:24:12 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || M1/00/42 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:36:18 PM  login attempt
+DATE: 2022-04-10 02:36:18 PM  Manager Login successful
+DATE: 2022-04-10 02:36:33 PM  attempting to addAppointment
+DATE: 2022-04-10 02:36:33 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM100422 appointmentType: Physician eventCapacity: 10  | Server Response: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:36:36 PM  attempting to listAppointmentAvailability
+DATE: 2022-04-10 02:36:36 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || M1/00/42 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:38:44 PM  login attempt
+DATE: 2022-04-10 02:38:44 PM  Manager Login successful
+DATE: 2022-04-10 02:38:56 PM  attempting to addAppointment
+DATE: 2022-04-10 02:38:56 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLA100422 appointmentType: Physician eventCapacity: 5  | Server Response: Success: Appointment MTLA100422 added successfully
+DATE: 2022-04-10 02:39:00 PM  attempting to listAppointmentAvailability
+DATE: 2022-04-10 02:39:00 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || M1/00/42 || Morning5 || A1/00/42 || Afternoon
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:41:26 PM  login attempt
+DATE: 2022-04-10 02:41:26 PM  Manager Login successful
+DATE: 2022-04-10 02:41:34 PM  attempting to addAppointment
+DATE: 2022-04-10 02:41:34 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM100422 appointmentType: Physician eventCapacity: 10  | Server Response: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:41:42 PM  attempting to listAppointmentAvailability
+DATE: 2022-04-10 02:41:42 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:42:04 PM  attempting to bookAppointment
+DATE: 2022-04-10 02:42:04 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM100422 appointmentType: Physician  | Server Response: Success: Appointment MTLM100422 Booked Successfully
+DATE: 2022-04-10 02:42:43 PM  attempting to getBookingSchedule
+DATE: 2022-04-10 02:42:43 PM Client Action:  getBookingSchedule | RequestParameters:  customerID: MTLP1234  | Server Response: Physician:
+MTLM100422 ||
+=====================================
+
+DATE: 2022-04-10 02:44:46 PM  attempting to listAppointmentAvailability
+DATE: 2022-04-10 02:44:46 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:45:05 PM  attempting to bookAppointment
+DATE: 2022-04-10 02:45:05 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM100422 appointmentType: Physician  | Server Response: Failed: Appointment MTLM100422 Already Booked
+DATE: 2022-04-10 02:52:22 PM  login attempt
+DATE: 2022-04-10 02:52:22 PM  Manager Login successful
+DATE: 2022-04-10 02:52:30 PM  attempting to addAppointment
+DATE: 2022-04-10 02:52:30 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM100422 appointmentType: Physician eventCapacity: 10  | Server Response: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:52:33 PM  attempting to listAppointmentAvailability
+DATE: 2022-04-10 02:52:33 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:52:48 PM  attempting to bookAppointment
+DATE: 2022-04-10 02:52:48 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM100422 appointmentType: Physician  | Server Response: Success: Appointment MTLM100422 Booked Successfully
+DATE: 2022-04-10 02:55:45 PM  login attempt
+DATE: 2022-04-10 02:55:45 PM  Manager Login successful
+DATE: 2022-04-10 02:55:56 PM  attempting to addAppointment
+DATE: 2022-04-10 02:55:56 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLM100422 appointmentType: Physician eventCapacity: 10  | Server Response: Success: Appointment MTLM100422 added successfully
+DATE: 2022-04-10 02:55:59 PM  attempting to listAppointmentAvailability
+DATE: 2022-04-10 02:55:59 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+10 || 10/04/22 || Morning
+=====================================
+SHERBROOK Server Physician:
+No Events of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Events of Type Physician
+=====================================
+
+DATE: 2022-04-10 02:56:11 PM  attempting to bookAppointment
+DATE: 2022-04-10 02:56:11 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM100422 appointmentType: Physician  | Server Response: Success: Appointment MTLM100422 Booked Successfully
+DATE: 2022-04-10 02:59:47 PM  attempting to bookAppointment
+DATE: 2022-04-10 02:59:47 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLM100422 appointmentType: Physician  | Server Response: Failed: Appointment MTLM100422 Already Booked
+DATE: 2022-04-10 03:00:00 PM  attempting to getBookingSchedule
+DATE: 2022-04-10 03:00:00 PM Client Action:  getBookingSchedule | RequestParameters:  customerID: MTLP1234  | Server Response: Physician:
+MTLM100422 ||
+=====================================
+
+DATE: 2022-04-10 03:06:10 PM  login attempt
+DATE: 2022-04-10 03:06:10 PM  Manager Login successful
+DATE: 2022-04-10 03:06:20 PM  attempting to addAppointment
+DATE: 2022-04-10 03:06:20 PM Client Action:  addAppointment | RequestParameters:  eventID: MTLA100422 appointmentType: Physician eventCapacity: 5  | Server Response: Success: Appointment MTLA100422 added successfully
+DATE: 2022-04-10 03:06:36 PM  attempting to bookAppointment
+DATE: 2022-04-10 03:06:36 PM Client Action:  bookAppointment | RequestParameters:  customerID: MTLP1234 eventID: MTLA100422 appointmentType: Physician  | Server Response: Success: Appointment MTLA100422 Booked Successfully
+DATE: 2022-04-10 03:06:45 PM  attempting to getBookingSchedule
+DATE: 2022-04-10 03:06:45 PM Client Action:  getBookingSchedule | RequestParameters:  customerID: MTLP1234  | Server Response: Physician:
+MTLM100422 ||MTLA100422 ||
+=====================================
+

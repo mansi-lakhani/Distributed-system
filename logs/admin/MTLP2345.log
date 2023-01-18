@@ -1,0 +1,40 @@
+09-04-2022 23:20:13 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+09-04-2022 23:23:20 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+09-04-2022 23:24:40 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+09-04-2022 23:41:18 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+09-04-2022 23:45:00 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 00:15:50 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 00:27:56 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 00:31:29 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 00:33:31 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 00:39:12 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 09:57:10 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:08:05 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:10:46 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:11:53 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:15:18 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:18:33 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:26:41 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:28:57 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:37:55 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:42:35 | List appointment | [PHYSICIAN] | Fail: No response from any server | false
+10-04-2022 10:45:09 | List appointment | [PHYSICIAN] | Failed: No Response found | false
+10-04-2022 10:52:13 | List appointment | [PHYSICIAN] |  | false
+10-04-2022 10:54:04 | List appointment | [PHYSICIAN] |  | false
+10-04-2022 13:13:49 | List appointment | [PHYSICIAN] |  | false
+10-04-2022 13:16:31 | List appointment | [PHYSICIAN] |  | false
+10-04-2022 13:18:03 | List appointment | [PHYSICIAN] | Failed: No Response found | false
+10-04-2022 13:33:40 | List appointment | [PHYSICIAN] | Failed: No Response found | false
+10-04-2022 13:36:02 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
+10-04-2022 14:25:02 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
+10-04-2022 16:25:31 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
+10-04-2022 16:27:53 | Add appointment | [MTLA090222, PHYSICIAN, 10] | Success: Appointment Added | false
+10-04-2022 16:40:58 | Add appointment | [MTLA010922, PHYSICIAN, 10] | Success: Appointment Added | false
+10-04-2022 16:41:49 | Remove appointment | [MTLA090222, PHYSICIAN] |  | false
+10-04-2022 17:26:21 | Add appointment | [MTLA090222, PHYSICIAN, 10] | Success: Appointment Added | false
+10-04-2022 17:30:27 | Add appointment | [MTLA090222, PHYSICIAN, 10] | Success: Appointment Added | false
+10-04-2022 18:21:10 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
+10-04-2022 18:23:43 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,SURGEON:SHEE070222,PHYSICIAN:SHEE080222,PHYSICIAN:QUEA040222,] | false
+10-04-2022 18:41:51 | Add appointment | [MTLA090222, PHYSICIAN, 10] | Fail: No response from any server | false
+10-04-2022 20:11:57 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
+10-04-2022 20:13:04 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false

@@ -1,0 +1,23 @@
+DATE: 2022-03-07 09:55:59 PM  login attempt
+DATE: 2022-03-07 09:55:59 PM  Manager Login successful
+DATE: 2022-03-07 09:56:16 PM  attempting to addAppointment
+DATE: 2022-03-07 09:56:16 PM Client Action:  addAppointment | RequestParameters:  eventID: QUEM070322 appointmentType: Surgeon eventCapacity: 7  | Server Response: Success: Appointment QUEM070322 added successfully
+DATE: 2022-03-07 09:58:12 PM  login attempt
+DATE: 2022-03-07 09:58:12 PM  Manager Login successful
+DATE: 2022-03-07 09:58:21 PM  attempting to addAppointment
+DATE: 2022-03-07 09:58:21 PM Client Action:  addAppointment | RequestParameters:  eventID: QUEM070322 appointmentType: Surgeon eventCapacity: 8  | Server Response: Success: Appointment QUEM070322 added successfully
+DATE: 2022-03-16 11:15:08 PM  login attempt
+DATE: 2022-03-16 11:15:08 PM  Manager Login successful
+DATE: 2022-03-16 11:15:22 PM  attempting to addAppointment
+DATE: 2022-03-16 11:15:22 PM Client Action:  addAppointment | RequestParameters:  eventID: QUEA160322 appointmentType: Surgeon eventCapacity: 5  | Server Response: Success: Appointment QUEA160322 added successfully
+DATE: 2022-03-16 11:15:28 PM  attempting to listAppointmentAvailability
+DATE: 2022-03-16 11:15:28 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Surgeon  | Server Response: QUEBEC Server Surgeon:
+5 || A1/60/32 || Afternoon
+=====================================
+MONTREAL Server Surgeon:
+No Events of Type Surgeon
+=====================================
+SHERBROOK Server Surgeon:
+No Events of Type Surgeon
+=====================================
+
